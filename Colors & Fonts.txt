@@ -1,0 +1,15 @@
+Bandeau supérieur : #333333
+Upper background : #1e93cc
+Bandeau partenaires : #eeeeee
+Boutons 1 et 2 : #165882
+Bouton 3 : #e99002
+Footer : #222222
+
+H1, H2, H3 et boutons --> Source sans pro Regular 400
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0;1&display=swap" rel="stylesheet">
+font-family: 'Source Sans Pro', sans-serif;
+
+Footer et header + texte sous les sous-titres (bandeau bleu principal) --> Quicksand
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+font-family: 'Quicksand', sans-serif;
+
