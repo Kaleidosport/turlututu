@@ -1,0 +1,278 @@
+body
+{
+	font-family: "Quicksand", Helvetica, sans-serif;
+	margin: auto;
+	max-width: 1262.67px;
+}
+
+/* Menu supérieur */
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  max-height: 2em;
+}
+
+li
+{
+  float: left;
+}
+
+li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.7em;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+
+li a:hover
+{
+  background-color: #111111;
+}
+
+li img
+{
+	display: block;
+  width: auto;
+  padding: 0.35em;
+  height: 18px;
+  padding-left: 7em;
+  margin-right: 0.4em;	
+}
+
+nav.mainnav
+{
+	display: flex;
+	width: 100%;
+	background-color: #333333;
+}
+
+.navright a 
+{
+	color: white;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	padding: 0.7em;
+	float: right;
+}
+
+.navright a:hover 
+{
+  background-color: #111111;
+}
+
+.navright
+{
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	margin-left: 35em;	
+}
+
+/* Chat button */
+
+#chat
+{
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	bottom: 0.1em;
+	right: 0.25em;
+	position: fixed;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#chat:hover
+{
+	transform: scale(1.2);
+	transition: .2s;
+}
+
+/* 1er bandeau informatif */
+
+.bandeau1
+{
+	background-color: #1e93cc;
+	height: 300px;
+	width: 100%;
+	display: inline-flex;
+}
+
+.cta1
+{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.avatar
+{
+	width: 25%;
+}
+
+.cta1 img
+{
+	margin-bottom: -0.75em;
+}
+
+.cta1 h1
+{
+	color: white;
+	font-size: 1.35em;
+}
+
+.cta1 button
+{
+	background-color: #e99002;
+	padding: 12px;
+	font-size: 1.4em;
+	color: white;
+	border: white solid 2px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.cta1 button:hover
+{
+	background-color: #165882;
+	color: #e99002;
+	border: black solid 2px;
+}
+
+/* 1er intermédiaire */
+
+#inter1
+{
+  text-align: center;
+}
+
+/* 2e bandeau informatif */
+
+.bandeau2
+{
+	background-color: #1e93cc;
+	height: 240px;
+	width: 100%;
+	display: inline-flex;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.wedocol1
+{
+	margin-left: 10%;
+}
+
+.wedocol2
+{
+	margin-right: 10%;
+}
+
+.wedothis h1
+{
+	color: white;
+	font-size: 1.3em;
+}
+
+.wedothis p 
+{
+	color: #cbcbcb;
+	font-size: 0.8em;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+/* 2e intermédiaire */
+
+#inter2
+{
+	text-align: center;
+}
+
+/* Bandeau réservé aux clients et partenaires */
+
+.weworkwith
+{
+	background-color: #eeeeee;
+	height: 220px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 16px;
+}
+
+.partnersrow
+{
+	padding-bottom: 8px;
+}
+
+/* Calls to action */
+
+.cta2
+{
+	height: 140px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 35px;
+}
+
+.cta2 button
+{
+	background-color: #165882;
+	padding: 12px;
+	font-size: 1.4em;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	margin-right: 4px;
+	cursor: pointer;
+}
+
+.cta2 button:hover
+{
+	background-color: #e99002;
+}
+
+button#button2
+{
+	background-color: #e99002;
+}
+
+button#button2:hover
+{
+	background-color: #165882;
+}
+
+/* Menu inférieur */
+
+li.withborder
+{
+	border-right: 0.7px #a1a1a1 dashed;
+}
+
+li.withborder2
+{
+	border-right: 0.7px white dashed;
+}
+
+a.copyright
+{
+margin-left: 72em;
+}

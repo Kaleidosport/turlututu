@@ -4,6 +4,8 @@
         <!-- En-tête de la page -->
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0;1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
         <title>Turlututu</title>
@@ -13,10 +15,11 @@
         <!-- Corps de la page -->
         <header>
             <!-- Menu supérieur -->
+        <nav class=mainnav>
         <nav class=navleft>
             <!-- Menu supérieur gauche -->
             <ul>
-            <li><img src="images/logo2.png" alt="Logo Turlututu"></li>
+            <li><img src="images/logo2.png" alt="Logo Turlututu" id="logo2"></li>        
             <li><a href="#">Features</a></li>
             <li><a href="#">Docs</a></li>
             <li><a href="#">Blog</a></li>
@@ -30,6 +33,7 @@
             <!-- Menu supérieur droit -->
             <img src="images/logintoon.png" alt="Login">
             <a href="#">Login</a>
+        </nav>
         </nav>
         </header>
 
@@ -54,6 +58,7 @@
 
         <section class=bandeau2>
             <!-- 2e bandeau informatif -->
+            <div class=wedocol1>
             <div class=wedothis>
                 <h1>> Simple to use</h1>
                 <p>turlututu.io is probably the fastest solution to get a database going for web and
@@ -65,6 +70,8 @@
                 <p>Collaborate and work with data in a workspace on your desktop, laptop or smartphone.
                 Quickly search through all your data. Secure your access with roles.</p>
             </div>
+            </div>
+            <div class=wedocol2>
             <div class=wedothis>
                 <h1>> Built for the modern web</h1>
                 <p>Designed for the modern web with high performance REST API and NoSQL MongoDB query language,
@@ -75,6 +82,7 @@
                 <p>turlututu.com databases can also serve web pages. Use HTML, Javascript, jQuery, Angular, ReactJS
                 (or your favorite framework) on turlututu.com Pages with server-side data-binding.</p>
             </div>
+            </div>
         </section>
 
         <section id=inter2>
@@ -84,8 +92,8 @@
 
         <section class=weworkwith>
             <!-- Bandeau réservé aux partenaires et clients -->
-            <img src="images/partners1.png" alt="Logos des partenaires Miles, AppTruck, Spectrum, knowit, hatchery et FWD">
-            <img src="images/partners2.png" alt="Logo du partenaire Product Hunt"> 
+            <a href="#"><img src="images/partners1.png" alt="Logos des partenaires Miles, AppTruck, Spectrum, knowit, hatchery et FWD" class="partnersrow"></a>
+            <a href="#"><img src="images/partners2.png" alt="Logo du partenaire Product Hunt"></a> 
         </section>
 
         <section class=cta2>
@@ -99,14 +107,14 @@
             <!-- Menu inférieur -->
             <nav class=navleft2>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
+                    <li class=withborder><a href="#">Home</a></li>
+                    <li class=withborder><a href="#">About</a></li>
+                    <li class=withborder><a href="#">Contact</a></li>
+                    <li class=withborder2><a href="#">Terms & Conditions</a></li>
                     <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#" class=copyright>© 2017 turlututu</a></li>
                 </ul>
             </nav>
-            <p id=copyright>© 2017 turlututu</p>
         </footer>
     </body>
 </html>
