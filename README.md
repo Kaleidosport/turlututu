@@ -2,7 +2,7 @@
 
 **Auteur :** [Kaleidosport](https://github.com/Kaleidosport).  
 **Contexte :** Exercice réalisé dans le cadre de la formation WebDev Junior dispensée par [BeCode](https://github.com/becodeorg), partie HTML-CSS.  
-**Exercice précédent :** [Turlututu online](https://kaleidosport.github.io/turlututu)  
+**Rendu final :** [Turlututu online](https://kaleidosport.github.io/turlututu)  
 **Date de la dernière mise à jour :** 29/08/2021.  
 
 ## Objectifs  
