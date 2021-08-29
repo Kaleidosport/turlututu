@@ -134,7 +134,7 @@ nav.mainnav
 	font-size: 1.35em;
 }
 
-.cta1 button
+.buttoncta1
 {
 	background-color: #e99002;
 	padding: 12px;
@@ -145,11 +145,10 @@ nav.mainnav
 	cursor: pointer;
 }
 
-.cta1 button:hover
+.buttoncta1:hover
 {
 	background-color: #165882;
-	color: #e99002;
-	border: black solid 2px;
+	color: #faa51e;
 }
 
 /* 1er intermédiaire */
@@ -200,6 +199,8 @@ nav.mainnav
 #inter2
 {
 	text-align: center;
+	color: darkgrey;
+	font-size: 0.89em;
 }
 
 /* Bandeau réservé aux clients et partenaires */
@@ -243,6 +244,8 @@ nav.mainnav
 	border-radius: 10px;
 	margin-right: 4px;
 	cursor: pointer;
+	height: 52px;
+	width: 177px;
 }
 
 .cta2 button:hover
@@ -275,4 +278,10 @@ li.withborder2
 a.copyright
 {
 margin-left: 70em;
+}
+
+ul.bottomnav
+{
+	padding-top: 1px;
+	padding-bottom: 14px;
 }
