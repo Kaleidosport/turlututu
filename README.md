@@ -1,16 +1,23 @@
-# The turlututu project 
-
+# The turlututu project  
+![Badge HTML](https://forthebadge.com/images/badges/validated-html5.svg) ![Badge CSS](https://forthebadge.com/images/badges/uses-css.svg)     
+  
 **Auteur :** [Kaleidosport](https://github.com/Kaleidosport).  
 **Contexte :** Exercice réalisé dans le cadre de la formation WebDev Junior dispensée par [BeCode](https://github.com/becodeorg), partie HTML-CSS.  
 **Rendu final :** [Turlututu online](https://kaleidosport.github.io/turlututu)  
-**Date de la dernière mise à jour :** 29/08/2021.  
+**Date de fin :** 29/08/2021, soit au bout d'une semaine de formation.  
 
+---      
+  
 ## Objectifs  
 
 * Reproduire aussi fidèlement que possible une mise en page prédéfinie  
 * User des différentes options offertes par les langages HTML et CSS  
 * Apprécier la dynamique d'apprentissage en autodidacte  
 
+## Aperçu  
+
+![Aperçu](./images/Aperçu.jpg)        
+  
 ## Remerciements  
 
 Merci à [Centimeter](https://www.youtube.com/watch?v=I1hLZ2OchZ8) pour le boost audio indéfectible. :sound: :crossed_flags:  
